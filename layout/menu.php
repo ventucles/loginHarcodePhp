@@ -15,6 +15,7 @@
                     {
 			        ?>
 
+                    <li><a href="configuracion.php">Configuración</a></li>
                     <li><a href="feq.php">Preguntas Frecuentes</a></li>
                     <li><a href="logout.php">cerrar sessión</a></li>
                    
