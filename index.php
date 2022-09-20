@@ -1,6 +1,6 @@
 <?php
   session_start(); // INICIAR LA VARIABLE SESSION
-    include("layout/head.php"); // LIBRERIAS    
+    include("layout/head.php"); // LIBRERIAS INCLUIDAS POR PARTE  
    
     if(!empty($_POST)) // VALIDO SI EXISTE EL POST ESTA VACIO O ES DIFERENTE
     {
@@ -12,7 +12,7 @@
           $_SESSION['rol'] = 1;
           header("location: configuracion.php");
        } else {
-          header("location: index.php");
+          header("location: index.php");// header("location: nombre archivo") FUNCION PARA REDIRECCIONAR EL ARCHIVO 
        }
     }
     ?>
